@@ -2301,7 +2301,7 @@ Team CSS
   background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  padding: 10px 15px;
+  padding: 2px 2px;
   border-radius: 75px;
   margin-bottom: 25px;
   margin-left: 10px;
@@ -5585,15 +5585,15 @@ Repair Services CSS
 }
 
 .single-repair-services.bg1 {
-  background-image: url(../images/repair-services-img/smart-office-sq.jpg);
+  background-image: url(../images/repair-services-img/smart-office-sq1.jpg);
 }
 
 .single-repair-services.bg2 {
-  background-image: url(../images/repair-services-img/smart-property-sq.jpg);
+  background-image: url(../images/repair-services-img/smart-property-sq1.jpg);
 }
 
 .single-repair-services.bg3 {
-  background-image: url(../images/repair-services-img/smart-city-sq.jpg);
+  background-image: url(../images/repair-services-img/waste-sq.jpg);
 }
 
 .single-repair-services.bg4 {
@@ -5601,7 +5601,7 @@ Repair Services CSS
 }
 
 .single-repair-services.bg5 {
-  background-image: url(../images/repair-services-img/smart-port-sq.jpg);
+  background-image: url(../images/repair-services-img/smart-port-sq1.jpg);
 }
 
 .single-repair-services.bg6 {
@@ -5613,11 +5613,11 @@ Repair Services CSS
 }
 
 .single-repair-services.bg8 {
-  background-image: url(../images/repair-services-img/hardware-sq2.jpg);
+  background-image: url(../images/repair-services-img/sucess-sq.jpg);
 }
 
 .single-repair-services.bg9 {
-  background-image: url(../images/repair-services-img/smart-solutions-sq.jpg);
+  background-image: url(../images/repair-services-img/iiot-sq1.jpg);
 }
 
 
@@ -8403,6 +8403,8 @@ Agency CTA CSS
   visibility: visible;
   width: 100%;
 }
+
+
 
 /* End Home eight Agency Demo */
 /*# sourceMappingURL=style.css.map */

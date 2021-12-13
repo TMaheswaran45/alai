@@ -26,9 +26,10 @@ export default () => (
             <Header />
             <MainBanner />
             <Services />
+              {/* <Team />  */}
+            <Partner />  
             <Cta />
-            {/*<Team />
-            <Partner />*/}
+            
 
             <Footer />
             <GoTop scrollStepInPx="50" delayInMs="16.66" />

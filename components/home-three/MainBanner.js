@@ -30,61 +30,61 @@ class MainBanner extends Component {
                                     <div className="hosting-banner-image">
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape1.png")}
+                                                // src={require("../../static/images/hosting-banner-image/hosting-shape1.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape2.png")}
+                                                // src={require("../../static/images/hosting-banner-image/hosting-shape2.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape3.png")} 
+                                                // src={require("../../static/images/hosting-banner-image/hosting-shape3.png")} 
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape4.png")}
+                                                // src={require("../../static/images/hosting-banner-image/hosting-shape4.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape5.png")} 
+                                                // src={require("../../static/images/hosting-banner-image/hosting-shape5.png")} 
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape6.png")}
+                                                // src={require("../../static/images/hosting-banner-image/hosting-shape6.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape7.png")}
+                                               // src={require("../../static/images/hosting-banner-image/hosting-shape7.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape8.png")}
+                                                //src={require("../../static/images/hosting-banner-image/hosting-shape8.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-shape9.png")}
+                                                //src={require("../../static/images/hosting-banner-image/hosting-shape9.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.5s' animation='fadeInUp'>
                                             <img 
-                                                src={require("../../static/images/hosting-banner-image/hosting-static-main.png")}
+                                                //src={require("../../static/images/hosting-banner-image/hosting-static-main.png")}
                                                 alt="image"
                                             />
                                         </ReactWOW>

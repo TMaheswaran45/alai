@@ -137,7 +137,7 @@ class MainBanner extends Component {
 
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/Smart bin - 2.jpg')}
+                                            src={require('../../static/images/smartbin-menu.png')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"
@@ -166,7 +166,7 @@ class MainBanner extends Component {
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
                                     <h3>Industrial Vision System (People counting and Identification) </h3>
-                                    <p>People counting cameras are devices that count and monitor the flow and behavior of people visiting public places like airports, shopping centers, museums, and sports areas, etc. People counters can help to evaluate and compare the number of people visiting stores. They gather data by counting the number of people entering and exiting these places and by measuring their actions, sizes, and movement.</p>
+                                    <p>People counting cameras are devices that count and monitor the flow and behavior of people visiting public places like airports, shopping centers, museums, and sports areas, etc. People counters can help to evaluate and compare the number of people visiting stores. They gather data by counting the number of people entering and exiting these places and by measuring their actions, sizes, and movement.</p>
                                     <Link href="/industrial-people-counting-features?style=default">
                                         <a className="btn btn-primary">Read more</a>
                                     </Link>
@@ -270,7 +270,7 @@ class MainBanner extends Component {
                                     <div className="repair-banner-content">
                                         <h3>POS Billing Machine(Point of Sales)</h3>
                                         <h5>What is POS Billing Machine?</h5>
-                                        <p>The POS billing machine is a point-of-sales billing machine that performs functions every time a sale is done. For example, updating inventory, generating an invoice, maintaining stock, etc. The retail POS billing machine is User friendly and automates your business.</p>
+                                        <p>The POS billing machine is a point-of-sales billing machine that performs functions every time a sale is done. For example, updating inventory, generating an invoice, maintaining stock, etc. The retail POS billing machine is User friendly and automates your business.</p>
                                         <Link href="/pos-billing-machine-features?style=default">
                                             <a className="btn btn-primary">Read more</a>
                                         </Link>
@@ -294,7 +294,7 @@ class MainBanner extends Component {
                                     <div className="repair-banner-image">
                                         <ReactWOW delay='0.6s' animation='zoomIn'>
                                             <img
-                                                src={require('../../static/images/Biometric-Attendance.jpg')}
+                                                src={require('../../static/images/biometric.png')}
                                                 className="wow zoomIn"
                                                 data-wow-delay="0.6s"
                                                 alt="image"

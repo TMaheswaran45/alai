@@ -60,7 +60,7 @@ class Services extends Component {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-repair-services bg2">
+                            <div className="single-repair-services bg3">
                                 <div className="icon">
                                     <i className="flaticon-delivery-truck"></i>
                                 </div>
@@ -68,7 +68,7 @@ class Services extends Component {
                                 <h3>Smart Waste Management</h3>
                                 <p>Smart Homes, Visitor Management, Security Cameras</p>
 
-                                <Link href="/faq?style=default">
+                                <Link href="/waste-management-system?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
@@ -133,15 +133,15 @@ class Services extends Component {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-repair-services bg4">
+                            <div className="single-repair-services bg8">
                                 <div className="icon">
                                     <i className="flaticon-handshake"></i>
                                 </div>
 
                                 <h3>Our Success story</h3>
-                                <p>ALAI Sucess Story</p>
+                                <p>ALAI Labs Sucess Story <br/> Click here</p>
 
-                                <Link href="/hardware-solutions?style=default">
+                                <Link href="/our-success-story?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
@@ -150,14 +150,14 @@ class Services extends Component {
                         
 
                     </div>
-                    <div className="repair-main-banner">
+                    {/* <div className="repair-main-banner">
                         <div className="container">
                             <div className="section-title">
                                 <h2>Our Technology Stack</h2>
                                 <div className="bar">
                                 </div>
                             </div>
-                            <div className="row align-items-center">
+                            {/* <div className="row align-items-center">
                                 <div className="col-lg-12">
                                     <div className="repair-banner-image">
                                         <ReactWOW delay='0.6s' animation='zoomIn'>
@@ -169,9 +169,9 @@ class Services extends Component {
                                         </ReactWOW>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
-                    </div>
+                    </div>  */}
                 </div>
             </section>
         );

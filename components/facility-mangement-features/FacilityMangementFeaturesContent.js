@@ -50,16 +50,7 @@ export default function FacilityMangementFeaturesContent() {
                                 <p> ● Schedule a meeting , booking of meeting rooms via kiosk / touch displays, visual booking, attendees pre-registration with visitor management, automate facility reservation.</p>
                                 <h3>Instant Feedback System</h3>
                                 <p> ● Visitor self sign-in / out, interactive visitor management kiosk to scan visitors, black listed verification.</p>
-                                {/* <ul className="features-details-list">
-                                    <li>Create effective email campaigns to reach and interact with your customer.</li>
-                                    <li>Proactively chat with your website visitors and convert them into potential customer.</li>
-                                    <li>Create, schedule and deliver your social media content where your audiences are most likely to engage.</li>
-                                    <li>Manage your sales pipeline, spot opportunities, increase win rates and grow your business.</li>
-                                    <li>Provide unmatched customer service across multiple channels, languages and time zones.</li>
-                                    <li>Plan, track and collaborate on client deliverables using our project management tools.</li>
-                                    <li>Gain data-driven insights on your sales performance with smart dashboards and KPIs.</li>
-                                    <li>Gather opinions, analyze results and discover better ways to exceed customer expectations.</li>
-                                </ul>*/}
+                         
                             </div>
                         </div>
                     </div>
@@ -126,7 +117,7 @@ export default function FacilityMangementFeaturesContent() {
 
                                 <h3>Step 3:</h3>
                                 <img
-                                    src={require('../../static/images/facility-management-dashboard.jpg')}
+                                    src={require('../../static/images/dash-qr.jpg')}
                                     className="wow zoomIn"
                                     alt="image" 
                                 />

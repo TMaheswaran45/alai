@@ -7,7 +7,7 @@ class Cta extends Component {
             <section className="repair-cta-area">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                             <div className="cta-repair-content">
                                 <h3>Reach us to discover new possibilities</h3>
                                 <p>The solutions we have developed till now are just the tip of the iceberg. The possibilities IoT offers are limitless. our team with a very diversified skillset can offer you simple and realistic solutions to your needs. Please reach out to us to see how we can be of assistance. You would sure not regret it.</p>
@@ -19,7 +19,7 @@ class Cta extends Component {
 
                         <div className="col-lg-6">
                         <div>
-                            <img src={require('../../static/images/meetus.jpg')}  />
+                            {/* <img src={require('../../static/images/meetus.jpg')}  /> */}
                         </div>
                         </div>
                     </div>

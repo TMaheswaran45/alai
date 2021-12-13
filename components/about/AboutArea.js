@@ -20,7 +20,7 @@ export default function About() {
 
 							<div className="section-title">
 
-								<p>Alai Labs was founded in 2016 in Singapore by three aspiring enterpreneurs with the aim of bring smaart homes with in the reach of everyone.
+								<p class="text-justify">Alai Labs was founded in 2016 in Singapore by three aspiring enterpreneurs with the aim of bring smaart homes with in the reach of everyone.
 									Alai Labs is head quartered in Singapore, while the R&D and technology delivery center is in chennai.
 									We are a 20 member strong team of highly passionate and enthusiastic people focussed on delivering exciting products and solutions for our customers.
 									Though we started out with products for smart homes, we have diversified a lot in the last 4 years working on multiple domains and projects.
@@ -37,26 +37,26 @@ export default function About() {
 					</div>
 				</div>
 
-				<div className="about-inner-area">
+				 <div className="about-inner-area"> 
 					<div className="row">
 						<div className="col-lg-4 col-md-6">
 							<div className="about-text">
 								<h3>Our History</h3>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p class="text-justify">Alai Labs was founded in 2016 in Singapore by three aspiring enterpreneurs with the aim of bringing smart solutions with in the reach of everyone. Alai Labs is head quartered in Singapore, while the R&D and technology delivery center is in chennai</p>
 							</div>
 						</div>
 
 						<div className="col-lg-4 col-md-6">
 							<div className="about-text">
 								<h3>Our Mission</h3>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p class="text-justify">Our mission has always been to make technology affordable through smart engineering. We intend to make meaningful impact to the society through our solutions</p>
 							</div>
 						</div>
 
 						<div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 							<div className="about-text">
-								<h3>Who we are</h3>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<h3>Our Values</h3>
+								<p class="text-justify">Alai Labs is built on the core values of doing the right thing always, transparency, honoring commitments to customers, freedom of expression and keeping the employees happy. We foster a culture of openness and respect for every other team member. Everyone in our team is considered as valuable as the core founders</p>
 							</div>
 						</div>
 					</div>

@@ -12,96 +12,96 @@ class Team extends React.Component {
                         <div className="bar"></div>
                         <p></p>
                     </div>
-                
+
 
                     <div className="row">
 
-					<div className="col-lg-4 col-md-6">
-						<div className="single-team">
-							<div className="team-image">
-								<img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
-							</div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
+                                </div>
 
-							<div className="team-content">
-								<div className="team-info">
-									<h3>Lakshmana Prabhu</h3>
-									<span>CEO & Founder</span>
-								</div>
+                                <div className="team-content">
+                                    <div className="team-info">
+                                        <h3>Lakshmana Prabhu</h3>
+                                        <span>CEO & Founder</span>
+                                    </div>
 
-								<ul>
+                                    <ul>
 
-                                    <li>
-                                        <Link href="#">
-                                            <a><Icon.Linkedin /></a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                                        <li>
+                                            <Link href="#">
+                                                <a><Icon.Linkedin /></a>
+                                            </Link>
+                                        </li>
+                                    </ul>
 
-								<p>Passionate about solving real world problems. Avid Learner</p>
-							</div>
-						</div>
-					</div>
+                                    <p>Passionate about solving real world problems. Avid Learner</p>
+                                </div>
+                            </div>
+                        </div>
 
-					<div className="col-lg-4 col-md-6">
-						<div className="single-team">
-							<div className="team-image">
-								<img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
-							</div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
+                                </div>
 
-							<div className="team-content">
-								<div className="team-info">
-									<h3>T K Viswanathan</h3>
-									<span>Director & Head of Technology</span>
-								</div>
+                                <div className="team-content">
+                                    <div className="team-info">
+                                        <h3>T K Viswanathan</h3>
+                                        <span>Director & Head of Technology</span>
+                                    </div>
 
-								<ul>
-                                <li>
-                                        <Link href="#">
-                                            <a><Icon.Twitter /></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a><Icon.Linkedin /></a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                                    <ul>
+                                        <li>
+                                            <Link href="#">
+                                                <a><Icon.Twitter /></a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                <a><Icon.Linkedin /></a>
+                                            </Link>
+                                        </li>
+                                    </ul>
 
-								<p>Passionate about solving real world problems. Avid Learner</p>
-							</div>
-						</div>
-					</div>
+                                    <p>Passionate about solving real world problems. Avid Learner</p>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div className="col-lg-4 col-md-6">
-						<div className="single-team">
-							<div className="team-image">
-								<img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
-							</div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
+                                </div>
 
-							<div className="team-content">
-								<div className="team-info">
-									<h3>Dr. Thiru Kanagasabapathi</h3>
-									<span>Partner & Advisor</span>
-								</div>
+                                <div className="team-content">
+                                    <div className="team-info">
+                                        <h3>Dr. Thiru Kanagasabapathi</h3>
+                                        <span>Partner & Advisor</span>
+                                    </div>
 
-								<ul>
+                                    <ul>
 
-                                    <li>
-                                    <Link href="#">
-                                            <a><Icon.Facebook /></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a><Icon.Linkedin /></a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                                        <li>
+                                            <Link href="#">
+                                                <a><Icon.Facebook /></a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                <a><Icon.Linkedin /></a>
+                                            </Link>
+                                        </li>
+                                    </ul>
 
-								<p>Passionate about solving real world problems. Avid Learner</p>
-							</div>
-						</div>
-					</div>
+                                    <p>Passionate about solving real world problems. Avid Learner</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

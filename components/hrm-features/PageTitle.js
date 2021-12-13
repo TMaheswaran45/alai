@@ -9,7 +9,7 @@ export default function PageTitle() {
                         <div className="repair-banner-image">
                             <ReactWOW delay='0.6s' animation='zoomIn'>
                                 <img
-                                    src={require('../../static/images/hrm-banner.jpg')}
+                                    src={require('../../static/images/hrm-banner1.jpg')}
                                     className="wow zoomIn"
                                     data-wow-delay="0.6s"
                                     alt="image"

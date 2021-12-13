@@ -14,8 +14,7 @@ export default function SmartBinFeaturesContent() {
                         <div className="col-lg-12">
                             <div className="repair-banner-content">
                                 <h4>What is Smart bin ?</h4>
-                                <p>The “smart bin” gather information on dustbin fill levels and once bin is full it can intimate. It helps reducing your organization’s carbon footprint.</p>
-
+                                <p>Our smart bin device help to  identify garbage litter level, it can monitor and take care of all the dustbin litter level in one place with help of our smart bin device. </p>
                             </div>
                         </div>
 
@@ -27,40 +26,34 @@ export default function SmartBinFeaturesContent() {
                             <div className="features-details-desc">
                                 <h3>Features & Benefits</h3>
                                 <p> ● The Smart Bin is designed for waste bin (trash bin) status detection.<br />
-                                    ● It detect full/empty, flame risk, inclined (fall) or not and etc. <br />
-                                    ● With GPRS module, it transmit the status via cell phone network to networks server and application server. <br />
-                                    ● User can monitor the status remotely. <br />
-                                    ● With the application software, user can assign the collector resource work plan and route plan.<br />
-                                    ● Finally the objective of high efficiency and low cost are achieved.<br />
-                                    ● It works for quad band frequency, 800/900/1800/1900Mhz.<br />
-                                    ● As it is with algorithm of low power consumption, the internal battery can work for more than 1 years (per day two times uploading)<br />
+                                    ● User can monitor the status remotely.<br />
+                                    ● Live Dashboard and Trend Analysis<br />
+                                    ● Report generation system<br />
+                                    ● Geo-location tagging based on QR-code and mobile app<br />
+                                    ● Retrofit into an existing bin.<br />
+                                    ● Battey lifetime: &lt; 3 Months<br />
+                                    ● AI backend is powered by AWS Recognition AI platform, trained to identify 10,000 object categories.<br />
+                                    ● An End-to-End Encrypted communication network is deployed for data integrity.<br />
+                                    ● Image captured once in 3hrs and applied with a CV algorithm to identify the new items from the last data set.<br />
+                                    ● The identified new data set are categorized and recognized.<br />
+                                    ● Based on the identification, the object volume is calculated to identify the level of the bin.<br />
+                                    ● Data aggregation for the volume of trash collection (weekly, monthly, and yearly)<br />
+                                    ● Less than 2% sensing error compared to convention Ultrasonic level sensor of &gt;40% sensing error.<br />
+                                    ● IR illuminated & battery pack powered IoT camera, operating with M2M 3G/4G network and connected to ASW Cloud for AI and Analytics. <br />
+                                    ● Litter data to be used for future resource planning, and explore the possibility to collect recyclable and resell the wastes based on the category index and volume<br />
                                 </p>
                                 <div className="separate"></div>
-                                
-                                {/* <div className="separate"></div>
-                                <ul className="features-details-list">
-                                    <li>Create effective email campaigns to reach and interact with your customer.</li>
-                                    <li>Proactively chat with your website visitors and convert them into potential customer.</li>
-                                    <li>Create, schedule and deliver your social media content where your audiences are most likely to engage.</li>
-                                    <li>Manage your sales pipeline, spot opportunities, increase win rates and grow your business.</li>
-                                    <li>Provide unmatched customer service across multiple channels, languages and time zones.</li>
-                                    <li>Plan, track and collaborate on client deliverables using our project management tools.</li>
-                                    <li>Gain data-driven insights on your sales performance with smart dashboards and KPIs.</li>
-                                    <li>Gather opinions, analyze results and discover better ways to exceed customer expectations.</li>
-                                </ul>*/}
                             </div>
                         </div>
 
                         <div className="col-lg-6 features-details-image">
                             <img
-                                src={require('../../static/images/chartpng.png')}
+                                src={require('../../static/images/smartbin2.jpg')}
                                 className="wow zoomIn"
                                 data-wow-delay="0.6s"
-                                alt="image" height="900px" width="600px"
+                                alt="image" height="1200px" width="800px"
                             />
                         </div>
-
-
                     </div>
 
                     {/*<div className="separate"></div>*/}
@@ -70,163 +63,51 @@ export default function SmartBinFeaturesContent() {
             </section>
 
             {/* <!-- 9 features or CRM --> ptb-80*/}
-            {/*<section className="features-area bg-f9f6f6">
-                <div className="container-fluid p-5">
-
+            <section className="features-area bg-f9f6f6">
+                <div className="container">
+                    <div className="col-lg-12"><br /><br /></div>
 
                     <div className="row">
-                        <div className="col-lg-4 col-md-4">
+                        <div className="col-lg-12 col-md-12 pb-1">
                             <div className="single-features">
                                 <div className="icon">
                                     <Icon.Settings />
                                 </div>
 
-                                <h3>Sales Force Automation</h3>
+                                <h3>Trend Analysis parameters</h3>
                                 <p>
                                     <ul>
-                                        <li>Lead Management</li>
-                                        <li>Deal Management</li>
-                                        <li>Contact Management</li>
-                                        <li>Workflow Automation</li>
+                                        <li>Type of Litter objects</li>
+                                        <li>Object size and volume</li>
+                                        <li>Identify Degradable and Non-Degradable objects.</li>
+                                        <li>Flammable materials and E-wastes</li>
+                                        <li>Metal wastes</li>
+                                        <li>Insects and Pests detection</li>
                                     </ul>
                                 </p>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-4">
+                        <div className="col-lg-12 col-md-12">
                             <div className="single-features">
                                 <div className="icon">
                                     <Icon.Mail />
                                 </div>
 
-                                <h3>Analytics</h3>
+                                <h3>Alert Mechanism</h3>
                                 <p>
                                     <ul>
-                                        <li>Reports</li>
-                                        <li>Analytical Components</li>
-                                        <li>Capabilities</li>
+                                        <li>Alerts on a bin level 80% and above</li>
+                                        <li>Rule-based alerts sent alerts on exceeding a specific category of litter type etc...</li>
 
                                     </ul>
                                 </p>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-c679e3">
-                                    <Icon.Grid />
-                                </div>
-
-                                <h3>Predictive Sales and Intelligence</h3>
-                                <p><ul>
-                                    <li>Lead & Deal Prediction</li>
-                                    <li>Zia Voice</li>
-                                    <li>Macro Suggestions</li>
-
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-c679e3">
-                                    <Icon.Info />
-                                </div>
-
-                                <h3>Process Management</h3>
-                                <p><ul>
-                                    <li>Sales Process Builder</li>
-                                    <li>Processing Rules</li>
-                                    <li>Review Process</li>
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-eb6b3d">
-                                    <Icon.Monitor />
-                                </div>
-
-                                <h3>Sales Enablement</h3>
-                                <p><ul>
-                                    <li>Quotes and Finance</li>
-                                    <li>Partner Portals</li>
-                                    <li>Calendar</li>
-                                    <li>G-Suite and Office 365</li>
-                                </ul></p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-eb6b3d">
-                                    <Icon.Mail />
-                                </div>
-
-                                <h3>Customization</h3>
-                                <p><ul>
-                                    <li>Layouts</li>
-                                    <li>Custom Components</li>
-                                    <li>Views and Filters</li>
-                                    <li>Global Selling</li>
-                                </ul></p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-eb6b3d">
-                                    <Icon.Mail />
-                                </div>
-
-                                <h3>Omnichannel</h3>
-                                <p><ul>
-                                    <li>Email</li>
-                                    <li>Telephony</li>
-                                    <li>Social</li>
-                                    <li>Customer portals</li>
-                                </ul></p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-eb6b3d">
-                                    <Icon.Mail />
-                                </div>
-
-                                <h3>Performance Management</h3>
-                                <p><ul>
-                                    <li>Forecasting</li>
-                                    <li>Territory Management</li>
-                                    <li>Gamification</li>
-
-                                </ul></p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-4">
-                            <div className="single-features">
-                                <div className="icon bg-eb6b3d">
-                                    <Icon.Mail />
-                                </div>
-
-                                <h3>Marketing Automation</h3>
-                                <p><ul>
-                                    <li> Customer Segmentation</li>
-                                    <li>Lead Nurturing</li>
-                                    <li>Google Ads Integration</li>
-                                    <li>Event Management</li>
-                                </ul></p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </section>{/*
+            </section>
 
 
             {/* <!-- End Features Area --> */}

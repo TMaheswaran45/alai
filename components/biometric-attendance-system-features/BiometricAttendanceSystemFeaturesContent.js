@@ -51,7 +51,7 @@ export default function BiometricAttendanceSystemFeaturesContent() {
 
                         <div className="col-lg-6 features-details-image">
                             <img
-                                src={require('../../static/images/Biometric-Attendance.jpg')}
+                                src={require('../../static/images/biometric.png')}
                                 className="wow zoomIn"
                                 data-wow-delay="0.6s"
                                 alt="image" height="900px" width="600px"

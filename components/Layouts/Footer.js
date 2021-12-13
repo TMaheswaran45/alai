@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>Alai Labs is an IoT Technology company based in Singapore with a development center in India. <br />At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality.</p>
+                                <p class="text-justify">Alai Labs is an IoT Technology company based in Singapore with a development center in India. <br />At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality.</p>
                             </div>
                         </div>
 
@@ -39,7 +39,11 @@ export default class Footer extends React.Component {
                                     </li>
                                     <li> 
                                         <Icon.PhoneCall />
-                                        Phone: <Link href="#"><a>+91-44-4851-8350</a></Link>
+                                        Phone: <Link href="#"><a>+91 98414-23048 </a></Link>
+                                    </li>
+                                    <li> 
+                                        <Icon.PhoneCall />
+                                        Landline: <Link href="#"><a>+91-44-7964-4952</a></Link>
                                     </li>
                                 </ul>
                             </div>

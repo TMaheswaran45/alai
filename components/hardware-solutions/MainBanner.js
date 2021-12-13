@@ -12,7 +12,7 @@ class MainBanner extends Component {
                             <div className="repair-banner-image">
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
                                     <img
-                                        src={require('../../static/images/hardware-banner1.jpg')}
+                                        src={require('../../static/images/city-banner-1.jpg')}
                                         className="wow zoomIn"
                                         data-wow-delay="0.6s"
                                         alt="image"
@@ -294,7 +294,7 @@ class MainBanner extends Component {
                                     <div className="repair-banner-image">
                                         <ReactWOW delay='0.6s' animation='zoomIn'>
                                             <img
-                                                src={require('../../static/images/Biometric-Attendance.jpg')}
+                                                src={require('../../static/images/biometric.png')}
                                                 className="wow zoomIn"
                                                 data-wow-delay="0.6s"
                                                 alt="image"

@@ -22,7 +22,7 @@ class MainBanner extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="ml-banner-single-image">
                                 <ReactWOW delay='0.5s' animation='fadeInUp'>
-                                    <img src={require("../../static/images/crm-bannernew.jpg")} className="wow fadeInUp" data-wow-delay="0.5s" alt="image" />
+                                    {/* <img src={require("../../static/images/crm-bannernew.jpg")} className="wow fadeInUp" data-wow-delay="0.5s" alt="image" /> */}
                                 </ReactWOW>
                             </div>
                         </div>
