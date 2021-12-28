@@ -942,7 +942,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Dell\\Desktop\\alai-ws-mp\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "F:\\alai-ws-mp\\.next");
       return error;
     }
   };
