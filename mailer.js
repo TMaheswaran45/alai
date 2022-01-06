@@ -3,7 +3,7 @@ const sgTransport = require('nodemailer-sendgrid-transport')
 
 const transporter = nodemailer.createTransport(sgTransport({
     auth: {
-      api_key: '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'
+      api_key: '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'
     }
 }))
 
@@ -20,8 +20,8 @@ const send = ({ name, email, phone, subject, text }) => {
     const from = name && email ? `${name} <${email}>` : `${name || email}`
 
     const message = {
-        from,
-        to: 'shabbir@salahsoftwaresolution.com',
+        from:email,
+        to: 'rasik.hussain@alai-labs.com',
         subject: subject,
         text: textBody,
         replyTo: from
